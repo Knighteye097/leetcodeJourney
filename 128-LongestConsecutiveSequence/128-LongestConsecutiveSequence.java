@@ -1,3 +1,4 @@
+// Last updated: 2/18/2025, 10:08:10 PM
 class Solution {
     public int longestConsecutive(int[] nums) {
         Arrays.sort(nums);
@@ -13,12 +14,11 @@ class Solution {
         for(int i=1; i<nums.length; i++) {
             if(nums[i] == prev+1) {
                 curr++;
-            } else if (nums[i] == prev) {
-                
-            } else {
-                res = Math.max(curr, res);
+            } else if (nums[i] != prev) {
                 curr = 1;
-            }
+            } 
+                
+            res = Math.max(curr, res);
             prev = nums[i];
         }
 
