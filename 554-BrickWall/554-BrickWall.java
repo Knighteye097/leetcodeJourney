@@ -1,26 +1,18 @@
+// Last updated: 2/19/2025, 12:27:22 AM
 class Solution {
     public int leastBricks(List<List<Integer>> wall) {
-        int n = wall.size();
-
         Map<Integer, Integer> map = new HashMap<>();
+        int maxGap = 0;
 
-        int width = 0;
-
-        for(int i=0; i<n; i++) {
-            width = 0;
-            for(int j=0; j<wall.get(i).size()-1; j++) {
-                width += wall.get(i).get(j);
+        for(List<Integer> list : wall) {
+            int width = 0;
+            for(int j=0; j<list.size()-1; j++) {
+                width += list.get(j);
                 map.put(width, map.getOrDefault(width, 0) + 1);
+                maxGap = Math.max(maxGap, map.get(width));
             }
         }
 
-        int maxGap = 0;
-        
-
-        for(int gap : map.values()) {
-            maxGap = Math.max(maxGap, gap);
-        }
-
-        return n - maxGap;
+        return wall.size() - maxGap;
     }
 }
