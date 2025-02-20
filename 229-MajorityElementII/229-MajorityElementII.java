@@ -1,5 +1,8 @@
+// Last updated: 2/20/2025, 11:59:24 PM
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
+        //Using Boyer-Moore Voting Algorithm
+
         int count1 = 0;
         int count2 = 0;
         int candidate1 = 0;
