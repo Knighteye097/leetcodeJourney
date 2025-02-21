@@ -1,6 +1,8 @@
-// Last updated: 2/21/2025, 11:26:38 PM
+// Last updated: 2/21/2025, 11:27:13 PM
 class Solution {
     public int countPalindromicSubsequence(String s) {
+        //Using BitMasking technique
+
         char[] arr = s.toCharArray();
 
         int[] firstOccur = new int[26];
