@@ -1,3 +1,4 @@
+// Last updated: 2/21/2025, 11:18:15 PM
 class Solution {
     public int countPalindromicSubsequence(String s) {
         char[] arr = s.toCharArray();
@@ -24,11 +25,10 @@ class Solution {
                 Set<Character> tempSet = new HashSet<>();
 
                 for(int j=firstOccur[i]+1; j<lastOccur[i]; j++) {
-                    if(!tempSet.contains(arr[j])){
-                        res++;
-                        tempSet.add(arr[j]);
-                    }
+                    tempSet.add(arr[j]);
                 }
+
+                res += tempSet.size();
             }
         }
 
