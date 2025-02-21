@@ -1,4 +1,4 @@
-// Last updated: 2/21/2025, 11:18:15 PM
+// Last updated: 2/21/2025, 11:18:51 PM
 class Solution {
     public int countPalindromicSubsequence(String s) {
         char[] arr = s.toCharArray();
@@ -22,13 +22,14 @@ class Solution {
 
         for(int i=0; i<26; i++) {
             if(firstOccur[i] != -1 && lastOccur[i] != -1 && firstOccur[i] < lastOccur[i]) {
-                Set<Character> tempSet = new HashSet<>();
+                Set<Character> uniqueMiddles = new HashSet<>();
 
                 for(int j=firstOccur[i]+1; j<lastOccur[i]; j++) {
-                    tempSet.add(arr[j]);
+                    if(!uniqueMiddles.contains(arr[j])){
+                        res++;
+                        uniqueMiddles.add(arr[j]);
+                    }
                 }
-
-                res += tempSet.size();
             }
         }
 
