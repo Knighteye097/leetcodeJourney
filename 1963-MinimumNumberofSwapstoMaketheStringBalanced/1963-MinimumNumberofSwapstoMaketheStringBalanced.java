@@ -1,11 +1,10 @@
-// Last updated: 2/22/2025, 10:00:27 PM
+// Last updated: 2/22/2025, 10:04:49 PM
 class Solution {
     public int minSwaps(String s) {
         char[] arr = s.toCharArray();
         int n = s.length();
 
-        int openingBrackets = 0;
-        int closingBrackets = 0;
+        int balance = 0;
 
         int swaps = 0;
 
@@ -14,24 +13,19 @@ class Solution {
 
         while(itr<secondItr) {
             if(arr[itr] == '[') {
-                openingBrackets++;
+                balance++;
             } else {
-                closingBrackets++;
+                balance--;
             }
 
-            if(closingBrackets>openingBrackets) {
+            if(balance<0) {
 
                 while(arr[secondItr] != '[') {
                     secondItr--;
                 }
 
-                char temp = arr[itr];
-                arr[itr] = arr[secondItr];
-                arr[secondItr] = temp;
-
                 swaps++;
-                openingBrackets++;
-                closingBrackets--;
+                balance += 2;
                 secondItr--;
             }
 
