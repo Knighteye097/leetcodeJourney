@@ -1,4 +1,4 @@
-// Last updated: 2/22/2025, 10:00:06 PM
+// Last updated: 2/22/2025, 10:00:27 PM
 class Solution {
     public int minSwaps(String s) {
         char[] arr = s.toCharArray();
@@ -38,6 +38,6 @@ class Solution {
             itr++;
         }
 
-        return swaps++;
+        return swaps;
     }
 }
