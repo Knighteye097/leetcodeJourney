@@ -1,3 +1,4 @@
+// Last updated: 2/22/2025, 11:07:24 PM
 class Solution {
     public long interchangeableRectangles(int[][] rectangles) {
         int n = rectangles.length;
@@ -13,7 +14,7 @@ class Solution {
 
             long count = map.getOrDefault(ratio, 0L);
             res += count;
-            map.put(ratio ,map.getOrDefault(ratio,0L) + 1);
+            map.put(ratio ,count + 1);
         }
 
         
