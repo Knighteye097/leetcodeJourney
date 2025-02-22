@@ -1,3 +1,4 @@
+// Last updated: 2/22/2025, 9:55:35 PM
 class Solution {
     public int minSwaps(String s) {
         char[] arr = s.toCharArray();
@@ -37,6 +38,6 @@ class Solution {
             itr++;
         }
 
-        return swaps++;
+        return swaps;
     }
 }
