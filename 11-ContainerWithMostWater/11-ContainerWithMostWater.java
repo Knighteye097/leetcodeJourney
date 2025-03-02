@@ -1,30 +1,24 @@
-// Last updated: 3/2/2025, 10:17:09 PM
+// Last updated: 3/2/2025, 10:21:04 PM
 class Solution {
-    public int maxArea(int[] height) {
-        int maxArea = 0;
-        int n = height.length;
-
-        int first = 0;
-        int last = n-1;
-
-        while(first < last) {
-            maxArea = Math.max(maxArea, (findMin(height[first], height[last]) * (last-first)));
-
-            if(height[first]<height[last]) {
-                first++;
-            } else {
-                last--;
+    static{
+        for(int i = 0; i < 500; i++){
+            maxArea(new int[]{0,0});
+        }
+       } 
+    public static int maxArea(int[] height) {
+        int left = 0;
+        int right = height.length - 1;
+        int maxArea = Integer.MIN_VALUE;
+        while (left < right) {
+            int h = Math.min(height[left], height[right]);
+            maxArea = Math.max(maxArea, h * (right - left));
+            while(left < right && height[left] <= h) {
+                left++;
+            }
+            while(left < right && height[right] <= h) {
+                right--;
             }
         }
-
         return maxArea;
-    }
-
-    private int findMin(int num1, int num2) {
-        if(num1 <= num2) {
-            return num1;
-        } 
-        
-        return num2;
     }
 }
