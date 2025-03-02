@@ -1,3 +1,4 @@
+// Last updated: 3/2/2025, 10:11:30 PM
 class Solution {
     public int maxArea(int[] height) {
         int maxArea = 0;
@@ -9,8 +10,6 @@ class Solution {
         while(first < last) {
             int currLength = Math.min(height[first], height[last]);
             int currBreadth = (last-first);
-
-            System.out.println(currLength + " " + currBreadth);
             int currArea = currLength * currBreadth;
 
             maxArea = Math.max(maxArea, currArea);
