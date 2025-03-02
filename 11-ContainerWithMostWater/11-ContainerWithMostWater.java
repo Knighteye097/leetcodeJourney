@@ -1,4 +1,4 @@
-// Last updated: 3/2/2025, 10:11:30 PM
+// Last updated: 3/2/2025, 10:14:11 PM
 class Solution {
     public int maxArea(int[] height) {
         int maxArea = 0;
@@ -16,10 +16,7 @@ class Solution {
 
             if(height[first]<height[last]) {
                 first++;
-            } else if(height[first] > height[last]){
-                last--;
             } else {
-                first++;
                 last--;
             }
         }
