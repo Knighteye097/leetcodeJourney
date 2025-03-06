@@ -1,4 +1,4 @@
-// Last updated: 2/20/2025, 11:59:24 PM
+// Last updated: 3/6/2025, 9:53:34 PM
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         //Using Boyer-Moore Voting Algorithm
