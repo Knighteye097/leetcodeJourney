@@ -1,4 +1,4 @@
-// Last updated: 3/26/2025, 1:27:03 PM
+// Last updated: 3/26/2025, 1:27:08 PM
 class Solution {
     public int maxVowels(String s, int k) {
         Predicate<Character> isVowel = ch -> "aeiou".indexOf(ch) != -1; // More concise check
