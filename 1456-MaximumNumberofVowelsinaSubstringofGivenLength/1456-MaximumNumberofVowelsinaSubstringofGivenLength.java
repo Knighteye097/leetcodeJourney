@@ -1,38 +1,31 @@
-// Last updated: 3/26/2025, 1:24:49 PM
+// Last updated: 3/26/2025, 1:25:58 PM
 class Solution {
     public int maxVowels(String s, int k) {
-        Predicate<Character> isVowel = ch -> {
-            if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
-                return true;
+        Set<Character> vowels = Set.of('a', 'e', 'i', 'o', 'u');
 
-            return false;    
-        };
+        int vowelCount = 0, maxVowels = 0;
 
-        char[] arr = s.toCharArray();
-        int n = s.length();
-
-        int res = 0, freq = 0;
-
-        for(int i=0; i<k; i++) {
-            if(isVowel.test(arr[i])){
-                freq++;
+        // Initial window
+        for (int i = 0; i < k; i++) {
+            if (vowels.contains(s.charAt(i))) {
+                vowelCount++;
             }
         }
 
-        res = freq;
+        maxVowels = vowelCount;
 
-        for(int i=k; i<n; i++) {
-            if(isVowel.test(arr[i-k])) {
-                freq--;
+        // Sliding window
+        for (int i = k; i < s.length(); i++) {
+            if (vowels.contains(s.charAt(i - k))) {
+                vowelCount--;
+            }
+            if (vowels.contains(s.charAt(i))) {
+                vowelCount++;
             }
 
-            if(isVowel.test(arr[i])) {
-                freq++;
-            }
-
-            res = Math.max(res, freq);
+            maxVowels = Math.max(maxVowels, vowelCount);
         }
 
-        return res;
+        return maxVowels;
     }
 }
