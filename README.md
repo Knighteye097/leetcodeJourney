@@ -5,12 +5,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Knighteye097/leetcodeJourney/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Knighteye097/leetcodeJourney/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Sliding Window
 |  |
 | ------- |
 | [1138-grumpy-bookstore-owner](https://github.com/Knighteye097/leetcodeJourney/tree/master/1138-grumpy-bookstore-owner) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Knighteye097/leetcodeJourney/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1755-defuse-the-bomb](https://github.com/Knighteye097/leetcodeJourney/tree/master/1755-defuse-the-bomb) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Knighteye097/leetcodeJourney/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 ## Array
@@ -26,4 +28,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
+## Hash Table
+|  |
+| ------- |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/Knighteye097/leetcodeJourney/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
