@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/Knighteye097/leetcodeJourney/tree/master/0966-binary-subarrays-with-sum) |
 | [1138-grumpy-bookstore-owner](https://github.com/Knighteye097/leetcodeJourney/tree/master/1138-grumpy-bookstore-owner) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Knighteye097/leetcodeJourney/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -18,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/Knighteye097/leetcodeJourney/tree/master/0966-binary-subarrays-with-sum) |
 | [1138-grumpy-bookstore-owner](https://github.com/Knighteye097/leetcodeJourney/tree/master/1138-grumpy-bookstore-owner) |
 | [1755-defuse-the-bomb](https://github.com/Knighteye097/leetcodeJourney/tree/master/1755-defuse-the-bomb) |
 ## Binary Search
@@ -27,9 +29,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/Knighteye097/leetcodeJourney/tree/master/0966-binary-subarrays-with-sum) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
 ## Hash Table
 |  |
 | ------- |
+| [0966-binary-subarrays-with-sum](https://github.com/Knighteye097/leetcodeJourney/tree/master/0966-binary-subarrays-with-sum) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Knighteye097/leetcodeJourney/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 <!---LeetCode Topics End-->
