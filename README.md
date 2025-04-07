@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/Knighteye097/leetcodeJourney/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1755-defuse-the-bomb](https://github.com/Knighteye097/leetcodeJourney/tree/master/1755-defuse-the-bomb) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/Knighteye097/leetcodeJourney/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Knighteye097/leetcodeJourney/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Array
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1138-grumpy-bookstore-owner](https://github.com/Knighteye097/leetcodeJourney/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Knighteye097/leetcodeJourney/tree/master/1370-count-number-of-nice-subarrays) |
 | [1755-defuse-the-bomb](https://github.com/Knighteye097/leetcodeJourney/tree/master/1755-defuse-the-bomb) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/Knighteye097/leetcodeJourney/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Binary Search
 |  |
 | ------- |
