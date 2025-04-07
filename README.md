@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0713-subarray-product-less-than-k](https://github.com/Knighteye097/leetcodeJourney/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Knighteye097/leetcodeJourney/tree/master/0966-binary-subarrays-with-sum) |
 | [1138-grumpy-bookstore-owner](https://github.com/Knighteye097/leetcodeJourney/tree/master/1138-grumpy-bookstore-owner) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0713-subarray-product-less-than-k](https://github.com/Knighteye097/leetcodeJourney/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Knighteye097/leetcodeJourney/tree/master/0966-binary-subarrays-with-sum) |
 | [1138-grumpy-bookstore-owner](https://github.com/Knighteye097/leetcodeJourney/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Knighteye097/leetcodeJourney/tree/master/1370-count-number-of-nice-subarrays) |
@@ -27,10 +29,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0713-subarray-product-less-than-k](https://github.com/Knighteye097/leetcodeJourney/tree/master/0713-subarray-product-less-than-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
 ## Prefix Sum
 |  |
 | ------- |
+| [0713-subarray-product-less-than-k](https://github.com/Knighteye097/leetcodeJourney/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/Knighteye097/leetcodeJourney/tree/master/0966-binary-subarrays-with-sum) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
 | [1370-count-number-of-nice-subarrays](https://github.com/Knighteye097/leetcodeJourney/tree/master/1370-count-number-of-nice-subarrays) |
