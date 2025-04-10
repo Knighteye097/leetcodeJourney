@@ -1,18 +1,13 @@
-// Last updated: 4/10/2025, 11:21:20 PM
+// Last updated: 4/10/2025, 11:25:02 PM
 class Solution {
     public int minLength(String s) {
-        Stack<Character> stack = new Stack();
-        char[] arr = s.toCharArray();
-        stack.push(arr[0]);
+        Stack<Character> stack = new Stack<>();
 
-        for(int i=1; i<arr.length; i++) {
-            char ch = 'X';
-            if(!stack.empty()) ch = stack.peek();
-            
-            stack.push(arr[i]);
-            if(isConditionMet(ch, arr[i])){
+        for(char ch : s.toCharArray()) {
+            if(!stack.empty() && isConditionMet(stack.peek(), ch)) {
                 stack.pop();
-                stack.pop();
+            } else {
+                stack.push(ch);
             }
         }
 
