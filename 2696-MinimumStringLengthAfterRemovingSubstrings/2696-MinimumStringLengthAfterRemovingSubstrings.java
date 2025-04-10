@@ -1,4 +1,4 @@
-// Last updated: 4/10/2025, 11:25:02 PM
+// Last updated: 4/10/2025, 11:25:59 PM
 class Solution {
     public int minLength(String s) {
         Stack<Character> stack = new Stack<>();
@@ -14,7 +14,7 @@ class Solution {
         return stack.size();
     }
 
-    public boolean isConditionMet(char ch1, char ch2) {
+    private boolean isConditionMet(char ch1, char ch2) {
         return (ch1 == 'A' && ch2 == 'B') || (ch1 == 'C' && ch2 == 'D');
     }
 }
