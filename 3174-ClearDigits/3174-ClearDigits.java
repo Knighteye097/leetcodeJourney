@@ -1,4 +1,4 @@
-// Last updated: 4/10/2025, 11:38:08 PM
+// Last updated: 4/10/2025, 11:39:49 PM
 class Solution {
     public String clearDigits(String s) {
         Stack<Character> stack = new Stack<>();
@@ -11,7 +11,13 @@ class Solution {
             }
         }
 
-        return stack.stream().map(ch -> ch.toString()).collect(Collectors.joining(""));
+        StringBuilder sb = new StringBuilder();
+
+        for(char ch: stack) {
+            sb.append(ch);
+        }
+
+        return sb.toString();
     }
 
     private boolean isNumber(char ch) {
