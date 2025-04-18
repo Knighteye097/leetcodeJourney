@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0735-asteroid-collision](https://github.com/Knighteye097/leetcodeJourney/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Knighteye097/leetcodeJourney/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/Knighteye097/leetcodeJourney/tree/master/0937-online-stock-span) |
 | [0983-validate-stack-sequences](https://github.com/Knighteye097/leetcodeJourney/tree/master/0983-validate-stack-sequences) |
 | [2470-removing-stars-from-a-string](https://github.com/Knighteye097/leetcodeJourney/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
@@ -71,4 +72,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/Knighteye097/leetcodeJourney/tree/master/0739-daily-temperatures) |
+| [0937-online-stock-span](https://github.com/Knighteye097/leetcodeJourney/tree/master/0937-online-stock-span) |
+## Design
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/Knighteye097/leetcodeJourney/tree/master/0937-online-stock-span) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/Knighteye097/leetcodeJourney/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
