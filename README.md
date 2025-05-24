@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0540-single-element-in-a-sorted-array](https://github.com/Knighteye097/leetcodeJourney/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/Knighteye097/leetcodeJourney/tree/master/0713-subarray-product-less-than-k) |
 | [0735-asteroid-collision](https://github.com/Knighteye097/leetcodeJourney/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/Knighteye097/leetcodeJourney/tree/master/0739-daily-temperatures) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0540-single-element-in-a-sorted-array](https://github.com/Knighteye097/leetcodeJourney/tree/master/0540-single-element-in-a-sorted-array) |
 | [0713-subarray-product-less-than-k](https://github.com/Knighteye097/leetcodeJourney/tree/master/0713-subarray-product-less-than-k) |
 | [1321-get-equal-substrings-within-budget](https://github.com/Knighteye097/leetcodeJourney/tree/master/1321-get-equal-substrings-within-budget) |
 ## Prefix Sum
